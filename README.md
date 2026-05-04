@@ -1,16 +1,37 @@
-# React + Vite
+# Nurse Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional portfolio website for a nurse, built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- **Modern UI/UX**: Clean and professional design tailored for healthcare professionals.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop viewing.
+- **Dynamic Sections**:
+  - Hero section with professional overview.
+  - Skills and Certifications.
+  - Experience and Education.
+  - Contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **React**: Frontend library.
+- **Vite**: Fast build tool and development server.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Rogersho/nurse-portfolio.git
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## License
+This project is licensed under the MIT License.
